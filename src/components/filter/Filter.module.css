@@ -5,14 +5,16 @@
 }
 
 .filterInput {
-  width: 180px; 
+  width: 180px;
   border-color: rgba(0, 0, 0, 0.16);
   outline: 0;
+  color: #28048d;
+  background-color: rgb(234, 248, 250);
 }
 
 .filterInput:focus {
-border-radius: 4px; 
-border: 2px solid rgba(0, 0, 255, 0.4);
+  border-radius: 4px;
+  border: 2px solid rgba(0, 0, 255, 0.4);
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
 }
